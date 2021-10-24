@@ -1,0 +1,13 @@
+{
+    "mode" : "train",
+    "train" : {
+        "input_path" : "TrainingFiles/input_1.txt",
+        "output_path" : "TrainingFiles/output_1.txt",
+        "model_path" : "Models/model_1.h5"
+    },
+    "predict" : {
+        "model_path" : "Models/model_1.h5",
+        "input_path":"PredictionFiles/input_1.txt",
+        "output_path" : "PredictionOutputs/predicted_1.txt"
+    }
+}
